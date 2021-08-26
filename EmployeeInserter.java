@@ -20,7 +20,7 @@ public class EmployeeInserter {
             Statement stmt = conn.createStatement();
 
             //create a string with an INSERT statement
-            String sqlStatement = "INSERT INTO Employee VALUES  ('6', 'Damon Flanick', 'Cutest Cat', 23.00)";
+            String sqlStatement = "INSERT INTO Employee VALUES  ('6', 'Damon Doe', 'Cutest Cat', 23.00)";
 
             //send the statement to the DBMS
             int rows = stmt.executeUpdate(sqlStatement);
