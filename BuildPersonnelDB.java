@@ -28,35 +28,35 @@ public class BuildPersonnelDB {
             // Insert first employee.
             stmt.execute("INSERT INTO Employee VALUES ( " +
                     "'1', " +
-                    "'Sara Flanick', " +
+                    "'Jane Doe', " +
                     "'CEO', " +
                     "153.99 )");
 
             // Insert 2nd employee.
             stmt.execute("INSERT INTO Employee VALUES ( " +
                     "'2', " +
-                    "'Chris Flanick', " +
+                    "'John Doe', " +
                     "'Vice President', " +
                     "101.99 )");
 
             // Insert third employee.
             stmt.execute("INSERT INTO Employee VALUES ( " +
                     "'3', " +
-                    "'Austin Flanick', " +
+                    "'Jake Doe', " +
                     "'IT Officer', " +
                     "97.99 )");
 
             // Insert 4th employee.
             stmt.execute("INSERT INTO Employee VALUES ( " +
                     "'4', " +
-                    "'Rachel Flanick', " +
+                    "'Amy Doe', " +
                     "'Head Nurse', " +
                     "99.76 )");
 
             // Insert 5th employee.
             stmt.execute("INSERT INTO Employee VALUES ( " +
                     "'5', " +
-                    "'Bailey Flanick', " +
+                    "'Bailey Doe', " +
                     "'Counselor', " +
                     "87.50 )");
 
